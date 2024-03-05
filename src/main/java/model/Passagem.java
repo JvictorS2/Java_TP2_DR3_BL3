@@ -28,7 +28,6 @@ public class Passagem {
 
     // getters
     public int getId() {
-
         return id;
     }
 
@@ -51,7 +50,27 @@ public class Passagem {
 
         return Preco;
     }
+    //Setters
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setLocalPartida(String localPartida) {
+        this.localPartida = localPartida;
+    }
+
+    public void setLocalChegada(String localChegada) {
+        this.localChegada = localChegada;
+    }
+
+    public void setDuracao(String duracao) {
+        this.duracao = duracao;
+    }
+
+    public void setPreco(Float preco) {
+        Preco = preco;
+    }
 
     // Método
     public void SetValues(String[] array){
