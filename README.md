@@ -1,14 +1,24 @@
 # Trabalho acadêmico, Engenharia da computação (Instituto Infnet - 3 semestre)
 ## Teste de Performance 2 - Desenvolvimento de Serviços Web e Testes com Java
 
-### Importante
-O projeto só irá funciona caso o caminho da pasta "dados" se mantenha no seguinte padrão, C:/Diretório de sua escolha/nome da pasta do projeto/src/Data
 
-O que é? 
+### O que é? 
 
 Sistema de monitoramento de  aeroporto, relaciona cliente e voos de avião, o sistema cadastra clientes e estes podem comprar passagens disponíveis, o sistema possui um menu separado em dois campos, o primeiro sendo do cliente e o segundo das passagens, cada campo consta dados e ações relacionadas a si e o sistema utiliza de arquivos CSV para persistência de dados.
 
-Regras 
+### Importante
+O projeto só irá funciona caso o caminho da pasta "dados" se mantenha no seguinte padrão, C:/Caminho até o atual diretório/nome da pasta do projeto/src/main/java/data  
+Exemplo: C:/Github_Clone/Java_TP2_DR3_BL3/src/main/java/data  
+Obs: O nome da pasta do projeto, no caso Java_TP2_DR3_BL3, não é relevante para o funcionamento do projeto
+
+### Ferramenta utizadas 
+
+Itellij (IDE) 
+Jdk 17   (java development kit)
+Maven (ferramenta de testes)
+JUnit 5.10.2 (Framework para testes)
+
+### Regras 
 
 Cliente 
 
@@ -33,6 +43,5 @@ LclChegada (Local de Chegada)
 Duracao (Duração da viagem)
 Preco (Preço da passagem em real)
 
-Ferramenta utizadas 
-
-Itellij - Jdk 21
+### Testes 
+Este projeto utiliza o framwork JUnit para criação e cobertura de testes, estes podem ser encontrados na pasta test, no momento apenas a pasta model possui cobertura 100% de testes.
